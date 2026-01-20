@@ -1,0 +1,27 @@
+{
+  "name": "search-api",
+  "version": "1.0.0",
+  "description": "OpenBookings Search API",
+  "license": "MPL-2.0",
+  "author": "OpenBookings",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test:search": "npx tsx scripts/test-search.mts"
+  },
+  "dependencies": {
+    "@types/node": "^25.0.9",
+    "dotenv": "^17.2.3",
+    "fastify": "^4.27.2",
+    "pg": "^8.17.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.16.0",
+    "nodemon": "^3.0.3",
+    "tsx": "^4.21.0"
+  }
+}
