@@ -5,8 +5,6 @@
  * Call `close()` on app shutdown (e.g. in Fastify's onClose hook or before process exit).
  * Requires Bun runtime (bun run).
  */
-
-/// <reference types="bun-types" />
 import "dotenv/config";
 import { SQL } from "bun";
 
